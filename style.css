@@ -1,0 +1,75 @@
+*{
+    margin:0px;
+    padding: 0p;
+    box-sizing: border-box;
+    font-family:'Arial black';
+}
+
+body {
+    background-image:url('background.jpeg');
+}
+
+.selections {
+    display:flex;
+    justify-content: center;
+}
+
+.knop {
+    background: none;
+    border: none;
+    margin:15px;
+    outline: none;
+    cursor: pointer;
+    font-size: 5rem;
+    transition: 100ms;
+}
+
+.knop:hover{
+    transform: scale(1.5);
+}
+
+.results {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    font-size:3rem;
+    color:rgb(45, 250, 4);
+    text-align:center;
+}
+
+.uitslag {
+    display:grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    font-size:3rem;
+    color:rgb(45, 250, 4);
+    text-align:center;
+}
+
+.result-score{
+    margin-left: .1rem;
+    font-size: 1.5rem;
+    color:#333;
+}
+
+.result-selection {
+    opacity: .5;
+    font-size: 5rem;
+}
+
+.result-selection.winner {
+    opacity: 1;
+    font-size: 5rem;
+}
+.antwoord {
+    display:grid;
+    justify-content:center;
+    justify-items: center;
+    align-items: center;
+    font-size:3rem;
+    color:rgb(45, 250, 4);
+    text-align:center;
+}
